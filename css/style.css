@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Miso;
+    src: url(../fonts/miso-light.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Miso;
+    src: url(../fonts/miso-bold.ttf);
+    font-weight: bold;
+}
+
+body{
+    margin:  0;
+    background-color: #fdde7e;
+    color: #383838;
+    font-family: Miso;
+    font-size: 20px;
+}
+
+.ba-container {
+	padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+	margin: 0 ;
+}
+
+p{
+    line-height: 0.6em;
+    margin-bottom: 15px;
+}
+
+.ba-result-cost{
+    color: #02995d;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.ba-result-title{
+    font-size: 35px;
+}
+
+.ba-result{
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px 20px;
+    border-radius: 3px;
+    margin: 0;
+    color: #333;
+}
+
+
+.ba-img{
+    flex-shrink: 0;
+    padding: 0;
+    width: 165px;
+    height: 165px;
+}
+
+.ba-result-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ba-self-height{
+    margin: 15px 0;
+}
+
+.ba-self-gold{
+    margin: 0px 30px;
+    justify-content: center;
+}
